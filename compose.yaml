@@ -4,6 +4,7 @@ services:
         container_name: git-updater-git-repo
         image: zoeyvid/git-updater:latest
         restart: always
+        network_mode: bridge
         environment:
         - "TZ=Europe/Berlin"
         volumes:
