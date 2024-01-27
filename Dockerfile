@@ -1,4 +1,4 @@
-FROM alpine:3.19.0
+FROM alpine:3.19.1
 RUN apk add --no-cache ca-certificates tzdata tini git && \
     git config --global --add safe.directory /src
 
