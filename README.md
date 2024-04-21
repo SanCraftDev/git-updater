@@ -18,4 +18,4 @@ services:
     user: 1000:1000
 ```
 
-make sure to change /path/to/git-repo and to user ids to match the correct user, you can also use root
+make sure to change /path/to/git-repo and the user ids to match the correct user, you can also use root
